@@ -5,14 +5,14 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace TechPosAPI.Handlers
+namespace TechPosAPI.ControllersRest
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClienteHandler : ControllerBase
+    public class ClienteControllerRest : ControllerBase
     {
         private readonly IClienteUseCase _clienteUseCase;
-        public ClienteHandler(IClienteUseCase clienteUseCase)
+        public ClienteControllerRest(IClienteUseCase clienteUseCase)
         {
             _clienteUseCase = clienteUseCase;
         }

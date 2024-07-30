@@ -4,15 +4,15 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace TechPosAPI.Handlers
+namespace TechPosAPI.ControllersRest
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProdutosHandler : ControllerBase
+    public class ProdutosControllerRest : ControllerBase
     {
         private readonly IProdutosUseCase _produtosUseCase;
 
-        public ProdutosHandler(IProdutosUseCase produtosUseCase)
+        public ProdutosControllerRest(IProdutosUseCase produtosUseCase)
         {
             _produtosUseCase = produtosUseCase;
         }
