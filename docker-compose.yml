@@ -15,7 +15,7 @@ services:
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
     build:
       context: .
-      dockerfile: src/Api/Dockerfile
+      dockerfile: TechPos/Dockerfile
     depends_on:
       database:
         condition: service_healthy
