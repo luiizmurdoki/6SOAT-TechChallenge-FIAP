@@ -16,14 +16,11 @@ namespace Infrastructure.Controllers
     {
         private readonly IClienteUseCase _clienteUseCase;
         private readonly ClientePresenter _clientePresenter;
-        //private readonly IClienteGateway _clienteGateway;
         public ControllerCliente(IClienteUseCase clienteUseCase
-            //IClienteGateway clienteGateway
             )
         {
             _clienteUseCase = clienteUseCase;
             _clientePresenter = new ClientePresenter();
-            //_clienteGateway = clienteGateway;
         }
 
         public async Task<ClienteDto> Obter(string cpf)
