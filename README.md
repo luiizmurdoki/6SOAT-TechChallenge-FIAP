@@ -3,7 +3,7 @@
 O principal objetivo deste projeto foi desenvolver uma solucao para gerenciar o cadastro, pedidos, produtos e fila de entrega, sendo um sistema de controle de pedidos.
 
 # Preview
-![Fluxo Principal](https://https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/images/Apis.JPG)
+![Fluxo Principal](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/images/Apis.JPG)
 
 ## Pré requisitos:
 
