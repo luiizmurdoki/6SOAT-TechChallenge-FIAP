@@ -1,4 +1,4 @@
-# Repositório - 6SOAT: Tech Challenge - FIAP
+# Grupo 14 - 6SOAT: Tech Challenge - FIAP
 
 O principal objetivo deste projeto foi desenvolver uma solucao para gerenciar o cadastro, pedidos, produtos e fila de entrega, sendo um sistema de controle de pedidos.
 
@@ -16,6 +16,7 @@ O principal objetivo deste projeto foi desenvolver uma solucao para gerenciar o 
 ```shell
 git clone https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP.git
 ```
+obs: utilizar a branch main (default)
 
 2- Acesse o path onde o docker compose esta localizado, na raiz do projeto:
 ```shell
@@ -34,6 +35,8 @@ docker compose up
 1- O arquivo [TechChallenge-Template.yaml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/TechChallenge-Template.yaml) realiza o provisionamento dos recursos na AWS atraves do cloudformation
 
 2- O arquivo [desafio.yml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/desafio.yml) contem o codigo para deploy do kubernetes no EKS
+
+![Diagrama da infraestrutura](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/images/InfraTechchallenge.jpg)
 
 ## Enums
 Enum Status:
