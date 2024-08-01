@@ -31,7 +31,7 @@ docker compose up
 4- Após a inicialização dos containers acessar via browser o endereço https://localhost:5001/swagger/index.html para vizualizar o Swagger das APIs.
 
 
-## /Infra
+## [/Infra](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/tree/main/Infra)
 1- O arquivo [TechChallenge-Template.yaml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/TechChallenge-Template.yaml) realiza o provisionamento dos recursos na AWS atraves do cloudformation
 
 2- O arquivo [desafio.yml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/desafio.yml) contem o codigo para deploy do kubernetes no EKS
