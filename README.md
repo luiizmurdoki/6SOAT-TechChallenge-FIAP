@@ -31,9 +31,9 @@ docker compose up
 
 
 ## /Infra
-1- O arquivo [TechChallenge-Template.yaml](Infra\TechChallenge-Template.yaml) realiza o provisionamento dos recursos na AWS atraves do cloudformation
+1- O arquivo [TechChallenge-Template.yaml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/TechChallenge-Template.yaml) realiza o provisionamento dos recursos na AWS atraves do cloudformation
 
-2- O arquivo [desafio.yml](Infra\desafio.yml) contem o codigo para deploy do kubernetes no EKS
+2- O arquivo [desafio.yml](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/Infra/desafio.yml) contem o codigo para deploy do kubernetes no EKS
 
 ## Enums
 Enum Status:
