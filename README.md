@@ -1,9 +1,9 @@
-# Repositório para fase 1 - 6SOAT: Tech Challenge - FIAP
+# Repositório - 6SOAT: Tech Challenge - FIAP
 
 O principal objetivo deste projeto foi desenvolver uma solucao para gerenciar o cadastro, pedidos, produtos e fila de entrega, sendo um sistema de controle de pedidos.
 
 # Preview
-![Fluxo Principal](https://github.com/PhelipeT2/6SOAT-TechChallenge-FIAP/blob/api-produtos/images/Apis.JPG)
+![Fluxo Principal](https://https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/images/Apis.JPG)
 
 ## Pré requisitos:
 
@@ -13,25 +13,27 @@ O principal objetivo deste projeto foi desenvolver uma solucao para gerenciar o 
 
 ## Iniciar o Projeto no docker
 1 -Utilize o git clone na pasta a sua escolha para clonar o projeto:
-
 ```shell
-git clone https://github.com/PhelipeT2/6SOAT-TechChallenge-FIAP.git
+git clone https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP.git
 ```
 
 2- Acesse o path onde o docker compose esta localizado, na raiz do projeto:
-
 ```shell
 cd ../6SOAT-TechChallenge-FIAP/
 ```
 
 3- Execute o comando para subir os containers a partir do docker compose:
-
 ```shell
 docker compose up
 ```
 
 4- Após a inicialização dos containers acessar via browser o endereço https://localhost:5001/swagger/index.html para vizualizar o Swagger das APIs.
 
+
+## /Infra
+1- O arquivo [TechChallenge-Template.yaml](Infra\TechChallenge-Template.yaml) realiza o provisionamento dos recursos na AWS atraves do cloudformation
+
+2- O arquivo [desafio.yml](Infra\desafio.yml) contem o codigo para deploy do kubernetes no EKS
 
 ## Enums
 Enum Status:
@@ -52,7 +54,7 @@ Enum Categoria:
 
 ## Schemas
 Os exemplos de payload das APIs estão disponibilizados na aba de Schemas do Swagger para realizar as chamadas.
-![Schemas](https://github.com/PhelipeT2/6SOAT-TechChallenge-FIAP/blob/main/images/SchemasApi.png)
+![Schemas](https://github.com/luiizmurdoki/6SOAT-TechChallenge-FIAP/blob/main/images/SchemasApi.png)
 
 
 ## Tecnologias
